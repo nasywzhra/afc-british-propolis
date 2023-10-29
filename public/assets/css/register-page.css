@@ -1,0 +1,13 @@
+.register-form {
+    padding: 90px 150px 175px 150px;
+}
+
+.btn-register{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: #FFA733;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
