@@ -4,11 +4,29 @@
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
     background-color: #ffa733;
     width: 100%;
 }
 .sosmed-icon{
     color: black;
+}
+.tag-new{
+    padding: 10px; 
+    background-color: #FF9100; 
+    font-size:25pt; 
+    font-weight: bold; 
+    font-family:'Times New Roman', Times, serif
+}
+
+.title-dashboard-s1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 86pt;
+    font-weight: bold;
+    color: #fbc42f;
+}
+
+.content-dashboard-s1 {
+    font-size: 22pt;
+    font-weight: 500;
+
 }
