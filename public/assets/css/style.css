@@ -1,0 +1,14 @@
+.nav-link:hover {
+    font-weight: bolder !important;
+    color: #ff9100 !important;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #ffa733;
+    width: 100%;
+}
+.sosmed-icon{
+    color: black;
+}
