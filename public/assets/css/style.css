@@ -19,14 +19,23 @@ footer{
 }
 
 .title-dashboard-s1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Abril Fatface', serif;
     font-size: 86pt;
-    font-weight: bold;
     color: #fbc42f;
 }
 
 .content-dashboard-s1 {
+    font-family:'Quicksand', sans-serif;
     font-size: 22pt;
-    font-weight: 500;
+    font-weight: 700;
 
+}
+
+.title-dashboard {
+    font-family: 'Abril Fatface', serif;
+    font-size: 30pt;
+}
+.content-dashboard{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22pt;
 }

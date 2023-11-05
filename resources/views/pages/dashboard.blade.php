@@ -1,4 +1,3 @@
-
 @extends('layouts.master')
 @section('content')
 <section class="container-fluid" style="margin-top: -75px">
@@ -7,11 +6,31 @@
             <span class="tag-new">New</span>
             <div>
                 <h1 class="title-dashboard-s1">Super MM Infinity</h1>
-                <p class="content-dashboard-s1">Produk Propolis Asal Inggris Bermutu Tinggi Standar Internasional, British Propolis dijamin halal 100%</p>
+                <p class="content-dashboard-s1">Produk Propolis Asal Inggris Bermutu Tinggi Standar Internasional,
+                    British Propolis dijamin halal 100%</p>
             </div>
         </div>
-    <div class="col-6 pe-0">
-        <img src="{{ asset('assets/img/pages/dashboard/dsb-s1.png') }}" alt="image Section 1" width="100%">
+        <div class="col-6 pe-0">
+            <img src="{{ asset('assets/img/pages/dashboard/dsb-s1.png') }}" alt="image Section 1" width="100%">
+        </div>
     </div>
+</section>
+
+<section class="container-fluid py-5">
+    <h1 class="text-center title-dashboard">APA ITU BRITISH PROPOLIS?</h1>
+    <div class="row pt-4">
+        <div class="col-6 ps-5">
+            <p class="content-dashboard"> Propolis adalah propolis premium dari Inggris. Dikatakan premium karena memang propolis ini
+            dihasilkan langsung dari lebah madu yang hidup di berbagai musim yaitu musim semi, musim panas, musim gugur
+            dan musim salju. Beberapa riset mengatakan bahwa lebah terbaik adalah lebah yang bisa hidup di 4 musim,
+            termasuk Inggris. Di Indonesia sendiri, BP termasuk propolis kualitas terbaik dan rekomendasi tokoh.</p>
+        </div>
+        <div class="col-6 pe-5">
+            <img src="{{ asset('assets/img/pages/dashboard/dsb-s2.png') }}" alt="Image Dashboard Section 2"
+                width="100%">
+
+        </div>
+    </div>
+
 </section>
 @endsection
