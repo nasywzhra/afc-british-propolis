@@ -39,3 +39,10 @@ footer{
     font-family: 'Quicksand', sans-serif;
     font-size: 22pt;
 }
+.horizontal-line-dashboard{
+    height: 10px;
+    width: 350px;
+    background-color: #ff9e1e;
+    border-radius: 5px;
+
+}
