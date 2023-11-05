@@ -49,4 +49,16 @@
         </div>
     </div>
 </section>
+<section class="container-fluid py-5">
+    <div class="row">
+        <div class="col-4 ps-5">
+            <img src="{{ asset('assets/img/pages/dashboard/dsb-s4.png') }}" alt="Image Dashboard Section 3" width="100%">
+        </div>
+        <div class="col-8 pe-5">
+            <div class="horizontal-line-dashboard"></div>
+            <h1 class="title-dashboard">BRITISH PROPOLIS GREEN</h1>
+            <p class="content-dashboard">Merupakan propolis yang diperuntukkan untuk anak-anak usia 1-12 tahun sehingga aman dikonsumsi dan rasanya disuka anak-anak. Bermanfaat untuk menjaga kesehatan anak dan mengoptimalkan tumbu kembangnya.</p>
+        </div>
+    </div>
+</section>
 @endsection
