@@ -46,3 +46,6 @@ footer{
     border-radius: 5px;
 
 }
+.navbar-nav .nav-link.active-page { 
+    color: #FF9100;
+}

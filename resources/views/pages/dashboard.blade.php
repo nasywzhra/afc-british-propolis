@@ -49,6 +49,7 @@
         </div>
     </div>
 </section>
+
 <section class="container-fluid py-5">
     <div class="row">
         <div class="col-4 ps-5">
@@ -61,4 +62,17 @@
         </div>
     </div>
 </section>
+
+    <section class="container-fluid py-5">
+        <div class="row align-items-end">
+            <div class="col-8 ps-5">
+                <div class="horizontal-line-dashboard"></div>
+                <h1 class="title-dashboard">BELGIE PRO NIGHT CREAM</h1>
+                <p class="content-dashboard">Belgie Pro Night Cream yang diformasikan dengan kandungan propolis Extract Palmitoyl Tripeptide -5, Hydrolyzed Collagen dan Hyaluronic Acid sangat baik untuk membantu meregenerasi kulit wajah, menghilangkan noda hitam di wajah, dan melembabkan kulit wajah.</p>
+            </div>
+            <div class="col-4 pe-5">
+                <img src="{{ asset('assets/img/pages/dashboard/dsb-s4.png') }}" alt="Image Dashboard Section 3" width="100%">
+            </div>
+        </div>
+    </section>
 @endsection

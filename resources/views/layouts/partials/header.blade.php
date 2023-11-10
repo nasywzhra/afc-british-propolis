@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link px-4 fw-bold" href="{{ route('dsb.index') }}">Home</a>
+                    <a class="nav-link px-4 fw-bold @if(request()->is('/')) active-page @else '' @endif" href="{{ route('dsb.index') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-4 fw-bold" href="#">Peluang Usaha</a>
