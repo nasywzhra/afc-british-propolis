@@ -14,7 +14,7 @@
                     <a class="nav-link px-4 fw-bold @if(request()->is('/')) active-page @else '' @endif" href="{{ route('dsb.index') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 fw-bold" href="#">Peluang Usaha</a>
+                    <a class="nav-link px-4 fw-bold {{ (request()->is('peluang-usaha') ? 'active-page' : '') }}" href="{{ route('dsb.peluang.usaha') }}">Peluang Usaha</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-4 fw-bold" href="#">Artikel</a>

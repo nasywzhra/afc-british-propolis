@@ -10,4 +10,9 @@ class DashboardController extends Controller
     {
         return view('pages.dashboard');
     }
+
+    public function peluangUsaha()
+    {
+        return view('pages.peluang_usaha');
+    }
 }

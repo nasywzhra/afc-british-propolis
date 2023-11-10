@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', [DashboardController::class, 'index'])->name('dsb.index');
+Route::get('/peluang-usaha', [DashboardController::class, 'peluangUsaha'])->name('dsb.peluang.usaha');
 
 Auth::routes();
 
