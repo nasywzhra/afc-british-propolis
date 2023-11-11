@@ -3,19 +3,21 @@
     color: #ff9100 !important;
 }
 
-footer{
+footer {
     background-color: #ffa733;
     width: 100%;
 }
-.sosmed-icon{
+
+.sosmed-icon {
     color: black;
 }
-.tag-new{
-    padding: 10px; 
-    background-color: #FF9100; 
-    font-size:25pt; 
-    font-weight: bold; 
-    font-family:'Times New Roman', Times, serif
+
+.tag-new {
+    padding: 10px;
+    background-color: #FF9100;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .title-dashboard-s1 {
@@ -25,27 +27,35 @@ footer{
 }
 
 .content-dashboard-s1 {
-    font-family:'Quicksand', sans-serif;
-    font-size: 22pt;
-    font-weight: 700;
-
+    font-family: 700 22pt 'Quicksand', sans-serif;
 }
 
 .title-dashboard {
-    font-family: 'Abril Fatface', serif;
-    font-size: 30pt;
+    font-family: 35pt 'Abril Fatface', serif;
 }
-.content-dashboard{
+
+.content-dashboard,
+.content-peluang-usaha {
     font-family: 'Quicksand', sans-serif;
     font-size: 22pt;
 }
-.horizontal-line-dashboard{
+
+.title-peluang-usaha {
+    font: 50pt 'Abril Fatface', serif;
+    color: #FF9100;
+}
+
+.sub-title-peluang-usaha {
+    font: 35pt 'Abril Fatface', serif;
+}
+
+.horizontal-line-dashboard {
     height: 10px;
     width: 350px;
     background-color: #ff9e1e;
     border-radius: 5px;
-
 }
-.navbar-nav .nav-link.active-page { 
+
+.navbar-nav .nav-link.active-page {
     color: #FF9100;
 }
