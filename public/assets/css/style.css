@@ -49,6 +49,14 @@ footer {
     font: 35pt 'Abril Fatface', serif;
 }
 
+.section-business-process{
+    background-color: #ff9e1e;
+    padding: 77px 0 77px 0;
+}
+.card-body{
+    height: 350px;
+}
+
 .horizontal-line-dashboard {
     height: 10px;
     width: 350px;
