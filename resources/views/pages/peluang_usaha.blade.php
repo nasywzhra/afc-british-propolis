@@ -31,7 +31,7 @@
 
 <section class="container-fluid section-business-process my-5">
     <h1 class="sub-title-peluang-usaha text-center text-white mb-5">BAGAIMANA CARA MENJALANKAN BISNISNYA?</h1>
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-4">
             <div class="card">
                 <div class="card-body">
@@ -79,6 +79,74 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid">
+    <h1 class="sub-title-peluang-usaha text-center px-5">MENGAPA HARUS BERGABUNG BISNIS BERSAMA BRITISH PROPOLIS?</h1>
+    <div class="row mb-5">
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Modal Awal Kecil</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Modal awal relatif kecil, namun Anda tetap memiliki kesempatan berbisnis dengan dimentori oleh motivator hebat serta tokoh terkemuka di Indonesia.                </p>
+            </div>
+        </div>
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Selalu Ready Stock</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Produk kami selalu ready stock karena diproduksi oleh pabrik besar. Anda tidak perlu pusing akibat stok yang langka.                </p>
+            </div>
+        </div>
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Mentoring dan Coaching</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Jika Anda pemula dalam berbisnis, pada tahap awal secara personal Anda akan dibimbing dan diberikan tahapan-tahapan mengenai hal-hal yang harus dilakukan hingga Anda ahli dalam bisnis British Propolis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Rutin Seminar</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Seminar serta pelatihan diadakan secara rutin oleh Ippho Santosa selaku founder British Propolis dengan menggandeng para motivator serta entrepreneur​ terkemuka negeri ini, sehingga dapat menambah kemampuan berbisnis Anda.                </p>
+                </p>
+            </div>
+        </div>
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Repeat Order Tinggi</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Produk dengan repeat order yang sangat tinggi. Pelanggan bisa terus membeli dengan jangka waktu yang singkat                </p>
+            </div>
+        </div>
+        <div class="col-4 text-center px-4" >
+            <div>
+                <img src= "{{ asset('assets/img/pages/peluang-usaha/down.png') }}" width="50px" alt="">
+            </div>
+            <div>
+                <p class="content-peluang-usaha mb-0"><strong>Kesempatan jadi Distributor British Propolis</strong></p>
+                <p class="content-peluang-usaha mb-0">
+                    Walaupun Anda memulai bisnis BP ini dari level Reseller atau Agen British Propolis. Namun, Anda diberi berkesempatan untuk jadi Distributor British Propolis juga. Peluangnya sangat besar!            </div>
         </div>
     </div>
 </section>
