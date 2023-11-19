@@ -165,78 +165,101 @@
 
 <section class="pt-5">
     <div class="d-flex justify-content-center">
-    <img src="{{ asset('assets/img/pages/peluang-usaha/line.png') }}" width="65%" alt="line">
+        <img src="{{ asset('assets/img/pages/peluang-usaha/line.png') }}" width="65%" alt="line">
     </div>
     <div>
         <h1 class="sub-title-peluang-usaha text-center mt-3">BAGAIMANA CARA BERGABUNGNYA?</h1>
-        <p class="content-peluang-usaha text-center">Apabila ingin menjadi mitra BP, anda hanya perlu investasi paket kemitraan dibawah ini: </p>
+        <p class="content-peluang-usaha text-center">Apabila ingin menjadi mitra BP, anda hanya perlu investasi paket
+            kemitraan dibawah ini: </p>
     </div>
     <div class="price-list-peluang-usaha">
         <div class="container py-5">
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-1 text-end">
-                        <img src="{{ asset('assets/img/pages/peluang-usaha/num-1.png') }}" alt="1" width="45px">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-1 text-end">
+                            <img src="{{ asset('assets/img/pages/peluang-usaha/num-1.png') }}" alt="1" width="45px">
+                        </div>
+                        <div class="col-11">
+                            <p class="content-peluang-usaha fw-bold">Rp. 650k</p>
+                            <p class="content-peluang-usaha fw-semibold">PAKET RESELLER</p>
+                            <ul class="mb-0">
+                                <li class="content-peluang-usaha">Mendapatkan 3 botol BP (all varian) @Rp. 250.000</li>
+                                <li class="content-peluang-usaha">Margin keuntungan Rp. 100.000</li>
+                                <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar
+                                </li>
+                                <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
+                                <li class="content-peluang-usaha">Reward</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-11">
-                        <p class="content-peluang-usaha fw-bold">Rp. 650k</p>
-                        <p class="content-peluang-usaha fw-semibold">PAKET RESELLER</p>
-                        <ul class="mb-0">
-                            <li class="content-peluang-usaha">Mendapatkan 3 botol BP (all varian) @Rp. 250.000</li>
-                            <li class="content-peluang-usaha">Margin keuntungan Rp. 100.000</li>
-                            <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar</li>
-                            <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
-                            <li class="content-peluang-usaha">Reward</li>
-                        </ul>
+                </div>
+            </div>
+            <div class="card my-5 shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-1 text-end">
+                            <img src="{{ asset('assets/img/pages/peluang-usaha/num-2.png') }}" alt="2" width="45px">
+                        </div>
+                        <div class="col-11">
+                            <p class="content-peluang-usaha fw-bold">Rp. 990k</p>
+                            <p class="content-peluang-usaha fw-semibold">PAKET AGEN</p>
+                            <ul class="mb-0">
+                                <li class="content-peluang-usaha">Mendapatkan 5 botol BP (all varian) @Rp. 250.000</li>
+                                <li class="content-peluang-usaha">Margin keuntungan Rp. 260.000</li>
+                                <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar
+                                </li>
+                                <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
+                                <li class="content-peluang-usaha">Free E-Course IG marketing moduls (senilai 399rb),
+                                    E-Course Cara Menulis Iklan yang Menjual (199rb), E-Course WhatsApp Marketing Moduls
+                                    (senilai 399rb), E-Course FB marketing moduls (senilai 499rb)</li>
+                                <li class="content-peluang-usaha">Reward</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-1 text-end">
+                            <img src="{{ asset('assets/img/pages/peluang-usaha/num-3.png') }}" alt="3" width="45px">
+                        </div>
+                        <div class="col-11">
+                            <p class="content-peluang-usaha fw-bold">Rp. 650k</p>
+                            <p class="content-peluang-usaha fw-semibold">PAKET AGEN PLUS</p>
+                            <ul class="mb-0">
+                                <li class="content-peluang-usaha">Mendapatkan 10 botol BP (all varian) @Rp. 250.000</li>
+                                <li class="content-peluang-usaha">Margin keuntungan Rp. 700.000</li>
+                                <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar
+                                </li>
+                                <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
+                                <li class="content-peluang-usaha">Free modul yang ada dalam paket Agen, ditambah Modul
+                                    Google Ads (senilai 199rb) dan SEO Domination (senilai 199rb)</li>
+                                <li class="content-peluang-usaha">Landingpage Bisnis</li>
+                                <li class="content-peluang-usaha">Reward</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card my-5">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-1 text-end">
-                        <img src="{{ asset('assets/img/pages/peluang-usaha/num-2.png') }}" alt="2" width="45px">
-                    </div>
-                    <div class="col-11">
-                        <p class="content-peluang-usaha fw-bold">Rp. 990k</p>
-                        <p class="content-peluang-usaha fw-semibold">PAKET AGEN</p>
-                        <ul class="mb-0">
-                            <li class="content-peluang-usaha">Mendapatkan 5 botol BP (all varian) @Rp. 250.000</li>
-                            <li class="content-peluang-usaha">Margin keuntungan Rp. 260.000</li>
-                            <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar</li>
-                            <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
-                            <li class="content-peluang-usaha">Free E-Course IG marketing moduls (senilai 399rb), E-Course Cara Menulis Iklan yang Menjual (199rb), E-Course WhatsApp Marketing Moduls (senilai 399rb), E-Course FB marketing moduls (senilai 499rb)</li>
-                            <li class="content-peluang-usaha">Reward</li>
-                        </ul>
+        <div class="row justify-content-end pb-5">
+            <div class="col-4 pe-5">
+                <div class="card rounded-pill">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="text-decoration-none text-dark"> //drop ur link here
+                            <div class="d-flex">
+                                <img src="{{ asset('assets/img/pages/peluang-usaha/whatsapp-icon.png') }}" width="20%"
+                                    alt="whatsApp">
+                                <p class="content-contact mb-0 ms-2 fw-semibold">Tertarik? Hubungi kami via WhatsApp!
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-1 text-end">
-                        <img src="{{ asset('assets/img/pages/peluang-usaha/num-3.png') }}" alt="3" width="45px">
-                    </div>
-                    <div class="col-11">
-                        <p class="content-peluang-usaha fw-bold">Rp. 650k</p>
-                        <p class="content-peluang-usaha fw-semibold">PAKET AGEN PLUS</p>
-                        <ul class="mb-0">
-                            <li class="content-peluang-usaha">Mendapatkan 10 botol BP (all varian) @Rp. 250.000</li>
-                            <li class="content-peluang-usaha">Margin keuntungan Rp. 700.000</li>
-                            <li class="content-peluang-usaha">Free digital promotion kit dan marketing kit dasar</li>
-                            <li class="content-peluang-usaha">Web support bisnis (senilai 1 juta)</li>
-                            <li class="content-peluang-usaha">Free modul yang ada dalam paket Agen, ditambah Modul Google Ads (senilai 199rb) dan SEO Domination (senilai 199rb)</li>
-                            <li class="content-peluang-usaha">Landingpage Bisnis</li>
-                            <li class="content-peluang-usaha">Reward</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 </section>
 @endsection

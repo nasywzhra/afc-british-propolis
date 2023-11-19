@@ -30,8 +30,8 @@ footer {
     font-family: 700 22pt 'Quicksand', sans-serif;
 }
 
-.title-dashboard {
-    font-family: 35pt 'Abril Fatface', serif;
+.title-dashboard, .title-page-article {
+    font: 35pt 'Abril Fatface', serif;
 }
 
 .content-dashboard,
@@ -56,6 +56,22 @@ footer {
 
 .price-list-peluang-usaha{
     background-color: #FA920A;
+}
+
+.content-contact{
+    font: 18pt 'Quicksand', sans-serif;
+
+}
+
+.card-title-article{
+    font: 15pt 'Quicksand', sans-serif;
+}
+
+.btn-warning{
+    background-color: #ffa733 !important;
+    font-size: 11pt !important;
+    border-color: #ffa733 !important;
+    color: white !important;
 }
 .card-body.business-process{
     height: 350px;

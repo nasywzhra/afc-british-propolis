@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -17,6 +18,7 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', [DashboardController::class, 'index'])->name('dsb.index');
 Route::get('/peluang-usaha', [DashboardController::class, 'peluangUsaha'])->name('dsb.peluang.usaha');
+Route::get('/articles/guest-user', [ArticleController::class, 'userIndex'])->name('articles.user.index');
 
 Auth::routes();
 

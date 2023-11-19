@@ -17,7 +17,7 @@
                     <a class="nav-link px-4 fw-bold {{ (request()->is('peluang-usaha') ? 'active-page' : '') }}" href="{{ route('dsb.peluang.usaha') }}">Peluang Usaha</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 fw-bold" href="#">Artikel</a>
+                    <a class="nav-link px-4 fw-bold {{ (request()->is('articles/guest-user') ? 'active-page' : '') }}" href="{{ route('articles.user.index') }}">Artikel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-4 fw-bold" href="#">Order</a>
